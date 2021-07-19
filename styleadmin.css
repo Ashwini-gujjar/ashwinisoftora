@@ -1,0 +1,103 @@
+.body{
+font-family: 'Open Sans', sans-serif;
+}
+.navbar-dark {
+  background-color:	#deb887;
+  font-family: 'Open Sans', sans-serif;
+color: white;
+  padding: 0.5rem 1rem;
+
+}
+
+.nav-item {
+  color:white;
+   font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  padding: 0rem 1rem;
+
+
+}
+.navbar-brand {
+  font-size:2rem;
+  font-weight: bold;
+  color:white;
+}
+.lime {
+font-family: 'Noto Serif', serif;
+  font-size: 3rem;
+  color:#a52a2a ;
+}
+.love{
+ font-family: 'Noto Serif', serif;
+  font-size: 3rem;
+  color:#a52a2a;
+}
+
+.and {
+  font-family: 'Noto Serif', serif;
+  font-size: 2.4rem;
+  color: #a52a2a;
+}
+
+
+.welcome {
+  color: white;
+  font-size: 1rem;
+  padding:1rem;
+  margin-left: auto;
+}
+
+@media (max-width:992px) {
+
+  .welcome {
+    order:0;
+  }
+  .navbar-toggler {
+    order:1;
+    margin-left:15px;
+    margin-right:0;
+  }
+
+  .navbar > .collapse {
+    margin-top:2rem;
+  }
+
+}
+
+.customerbody {
+	padding:4rem 26rem;
+	font-family: 'Open sans', sans-serif;
+	text-align:center;
+
+}
+
+table {
+	background-color: 	#87cefa;
+
+}
+
+.table-striped {
+  border:3px solid 		#191970 ;
+}
+
+.tr {
+	padding:1rem;
+	font-weight: bold;
+	font-size:1.5rem;
+}
+
+.td {
+  font-weight: bold;
+}
+
+@media screen and (max-width:1200px) {
+	.customerbody {
+		padding:8rem 5rem;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.customerbody {
+		padding:8rem 2rem;
+	}
+}
